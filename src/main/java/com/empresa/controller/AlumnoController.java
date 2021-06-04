@@ -25,8 +25,6 @@ public class AlumnoController {
 	@Autowired
 	private AlumnoService service;
 	
-	
-	
 	@GetMapping
 	@ResponseBody  //responseEntity los datos se convierten en Json.
 	public ResponseEntity<List<Alumno>> listaAlumno(){
